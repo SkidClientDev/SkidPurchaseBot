@@ -6,8 +6,26 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '!help') {
+    	message.reply('Help!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!website') {
+    	message.reply('https://bbni.ml');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!bot') {
+    	message.reply('Online');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!status') {
+    	message.reply('Online');
   	}
 });
 
