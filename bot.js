@@ -30,5 +30,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!bbni') {
+        //privatemessage
+    	message.author.sendMessage("www.instagram.com/bbnifx")
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
