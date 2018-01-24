@@ -52,5 +52,13 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === '!invite') {
+        //privatemessage
+    	message.author.sendMessage("www.discord.io/bbnialt")
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
