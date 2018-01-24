@@ -6,7 +6,6 @@ client.on('ready', () => {
 });
 
 
-client.setGame("Playing !getalt [BY BBNI]");
 
 client.on('message', message => {
     if (message.content === '!help') {
