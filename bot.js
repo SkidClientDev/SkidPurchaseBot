@@ -5,6 +5,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+
+client.setGame("GAME");
+
 client.on('message', message => {
     if (message.content === '!help') {
     	message.reply('Help!');
