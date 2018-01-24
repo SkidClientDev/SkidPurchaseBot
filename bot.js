@@ -25,7 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!status') {
-    	message.author.sendMessage("Your message here.")
+    	message.reply('Online');
   	}
 });
 
