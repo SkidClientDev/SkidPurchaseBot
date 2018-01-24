@@ -5,9 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.setGame("Playing !getalt By BBNI");
-});
-
 client.on('message', message => {
     if (message.content === '!help') {
     	message.reply('Help!');
