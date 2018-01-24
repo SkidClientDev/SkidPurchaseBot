@@ -33,7 +33,7 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '!order') {
         //privatemessage
-    	message.author.sendMessage("Welcome To BBNI Order Panel!\nPlease Do !order intro.")
+    	message.author.sendMessage("Welcome To BBNI Order Panel!\nPlease Do !order intro If You Want To Buy Intro!.")
   	}
 });
 
