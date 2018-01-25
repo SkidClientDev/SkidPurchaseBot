@@ -419,6 +419,7 @@ function wrap(text) {
 	return '```\n' + text.replace(/`/g, '`' + String.fromCharCode(8203)) + '\n```';
 }
 
+client.User.setGame('BBNI BOT BY BBNIGT/BBNIFX');
 
 client.on('ready', () => {
     console.log('BBNI BOT HAS BEEN TURNED ON! MADE BY BBNIGT!');
