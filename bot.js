@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-bot.user.setGame("use !help");
 
 client.on('ready', () => {
     console.log('BBNI BOT HAS BEEN TURNED ON! MADE BY BBNIGT!');
+    bot.user.setGame("use !help");
 });
 
 client.on('message', message => {
