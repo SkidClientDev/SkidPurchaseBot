@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.user.setPresence({ game: { name: 'Made By BBNIGT', type: 0 } });
+bot.user.setGame("use !help");
 
 client.on('ready', () => {
     console.log('BBNI BOT HAS BEEN TURNED ON! MADE BY BBNIGT!');
