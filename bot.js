@@ -15,9 +15,6 @@ const HypixelClient = new HypixelAPI(args[1])
 
 client.on('ready', () => {
     console.log('BBNI BOT HAS BEEN TURNED ON! MADE BY BBNIGT!');
-    client.user.setGame("use !help");
-    client.user.setStatus('online')
-	client.user.setGame('!hycord')
     
     console.log('The bot has been initialized!')
 
