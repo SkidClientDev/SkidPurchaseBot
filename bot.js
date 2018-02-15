@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('SkidPurchaseBot Its Ready~!');
-    
+    client.user.setStatus('Playing SkidClient')
   
 });
 
